@@ -9,9 +9,10 @@ const Contact = () => {
 
     </div>
     <div className='rightSide'>
-        <h1>Contato</h1>
+        
         
         <form id='contact-form' method='POST'>
+        <h1>Contato</h1>
             <p>Entre em contato conosco e <u>Adote um Pet!</u></p>
             <label htmlFor='name'>Nome Completo</label>
             <input name='name' placeholder='Digite seu nome completo' type='text' required/>
