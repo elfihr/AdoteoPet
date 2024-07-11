@@ -11,13 +11,13 @@ const about = () => {
           <h1 className='title'>Sobre PetLover</h1>
           <p className='desciption'>A Fihr PetLover nasceu em 2019 e temos como missao dar um lar a todos os pet que nescessitam e fazemos as atividades:
             <br /><br />
-            Resgate: uitos pets chegam às instituições por meio de resgates, entregues por tutores que não podem mais cuidar deles, ou através de parcerias com organizações de bem-estar animal.
+            <b>Resgate:</b> Muitos pets chegam às instituições por meio de resgates, entregues por tutores que não podem mais cuidar deles, ou através de parcerias com organizações de bem-estar animal.
             <br /><br />
-            Cuidados Médicos: Antes de serem disponibilizados para adoção, os animais recebem cuidados médicos essenciais, incluindo vacinas, esterilização e tratamento para quaisquer condições de saúde.
+            <b>Cuidados Médicos:</b> Antes de serem disponibilizados para adoção, os animais recebem cuidados médicos essenciais, incluindo vacinas, esterilização e tratamento para quaisquer condições de saúde.
             <br /><br />
-            Socialização e Treinamento:Os animais passam por processos de socialização e, em alguns casos, treinamento básico para garantir que estejam prontos para viver em um novo lar.
+            <b>Socialização e Treinamento:</b> Os animais passam por processos de socialização e, em alguns casos, treinamento básico para garantir que estejam prontos para viver em um novo lar.
             <br /> <br />
-            Avaliação do Adotante: Realizamos uma avaliação dos potenciais adotantes para garantir que estão aptos a cuidar do pet, considerando fatores como estilo de vida, espaço disponível e experiência prévia com animais.
+            <b>Avaliação do Adotante:</b> Realizamos uma avaliação dos potenciais adotantes para garantir que estão aptos a cuidar do pet, considerando fatores como estilo de vida, espaço disponível e experiência prévia com animais.
           </p>
         </div>
         <img src={adote} alt='Imagem PetLover' />
