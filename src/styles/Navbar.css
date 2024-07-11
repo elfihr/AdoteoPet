@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding:  1rem 10%;
+    padding:  2rem 10%;
     background: var(--color-secondary);
     align-items: center;
     box-shadow:0 5px 5px rgba(0, 0, 0, 0.25);
@@ -20,7 +20,7 @@
     margin-left: 40px;
     text-decoration: none;
     margin-left: 2.5em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 500;
     border-bottom: none;
     transition: 0.5s;
@@ -29,7 +29,7 @@
 
 .logo{
     color: var(--color-primary);
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 /*---------efeito hover ao selecionar-começo*/
@@ -58,10 +58,10 @@
 
 /*posição menuBar*/
 .iconMenu{
-    bottom:10px;
+    bottom:25px;
     right: 10px;
     position: absolute;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     display: none;
     color: aliceblue;

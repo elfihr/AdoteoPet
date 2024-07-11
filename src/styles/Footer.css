@@ -18,7 +18,7 @@
 
   .fa-brands:hover{
     color: goldenrod;
-    transition: transform 0.5s;
+    transition: 0.5s;
   }
   
   .footer p {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../assets/background.jpg'
+import Background from '../assets/background.webp'
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
 

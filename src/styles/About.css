@@ -1,76 +1,104 @@
 .about {
-    width: 100%;
-    height:90vh ;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
+    padding: 0 4rem;
 }
 
-.aboutTop {
-    width: 100%;
-    height: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.aboutTop{
+    display: flex;
+    align-items: center;
+}
+
+.aboutTop img{
+    margin-left: 1rem;
+    border:3px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
 }
 
 .aboutBottom {
-    padding: 0 4rem;
     display: flex;
-    flex-direction: column;
-    height: 55%;
     align-items: center;
-    margin-top: 50px;
+    margin-bottom: 1rem;
 }
-
-
-.aboutBottom p {
-    padding: 0.5rem 1rem;
-}
-
-.about .aboutBottom h1 {
-
+.title{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 3.5rem;
     color: black;
-    height: 70px;
     display: flex;
     justify-content: center;
-    transform: translateY(-40px);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-/*=================================================Responsive 622px==============================================*/
-@media (max-width: 622px) {
-    .about .aboutBottom h1{
-        font-size: 4rem;
+.desciption{
+    font-size:1.1rem ;
+}
+
+.aboutVideo {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+.aboutVideo video {
+    margin-right: 2rem;
+    border:3px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+    width: 40rem;
+
+}
+/*=================================================Responsive 1115px==============================================*/
+
+@media (max-width: 1115px) {
+    .title {
+        font-size: 3rem;
     }
-}
-
-/*=================================================Responsive 580px==============================================*/
-@media (max-width: 580px) {
-    .about .aboutBottom h1{
-        font-size: 2.5rem;
-        height: 30px;
+    .desciption{
+        font-size:0.9rem ;
+    }
+    .aboutTop img{
+        height: 50%;
+        width: 50%;
+    }
+    .aboutVideo video{
+        width: 30rem;
     }
     .about {
+        padding: 0 2rem;
+    }
     
-        height: 100vh ;
-    }
-    .aboutBottom {
-        padding: 0 3rem;
-    }
 }
-/*=================================================Responsive 390px==============================================*/
-@media (max-width: 390px) {
-    .about .aboutBottom h1{
-        font-size: 2.5rem;
-        height: 30px;
-    }
-    .aboutBottom {
-        padding: 0 1.5rem;
-    }
-    .about {
-    
-        height: 120vh ;
+/*=================================================Responsive 900px==============================================*/
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 2.2rem;
     }
 
+    .aboutTop {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .aboutTop img{
+        margin-bottom: 1rem;
+        height: 80%;
+        width: 80%;
+    }
+    .aboutBottom {
+        flex-direction: column;
+    
+    }
+    .aboutVideo video{
+        width: 90%;
+        height: 90%;
+    }
+    .about {
+        padding: 0 2rem;
+    }
+    
 }

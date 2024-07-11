@@ -13,9 +13,8 @@
 }
 
 .contact .rightSide {
-    margin-top: 1.8rem;
-    height: 100%;
-    flex: 50%;
+    margin-top: 6.5rem;
+    flex: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,9 +86,17 @@ form button {
     color: #121619;
 }
 
-/*=================================================Responsive 920px==============================================*/
-@media (max-width: 656px) {
+/*=================================================Responsive 806px==============================================*/
+@media (max-width: 806px) {
     .contact {
         flex-direction: column;
+    }
+    .contact .rightSide{
+        margin: 0;
+    }
+    
+    .leftSide{
+        display: none;
+
     }
 }

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className='navMenu'>
-      <h3 className='logo'>PetLover</h3>
+      <h3 className='logo'>FihrPetLover</h3>
       <input type='checkbox' id='check'></input>
       <label for='check' className='iconMenu' >
         <ReorderIcon id='menu-icon' fontSize='2rem' />
