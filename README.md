@@ -2,7 +2,7 @@
 
 O Projeto em react com foco em interações sutis e responsividade para mobile
 
-Deploy: xxx
+Deploy: https://adoteo-pet.vercel.app/
 
 ## Sobre o site
 
